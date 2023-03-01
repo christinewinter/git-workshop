@@ -3,10 +3,12 @@ https://git-scm.com/downloads
 
 # Setup your username and email
 `git config --global user.name "Your name"`
+
 `git config --global user.email "your@email.se"`
 
 # Create a directory for your project
 `mkdir first-git-project`
+
 `cd first-git-project`
 
 # Init repo and set "main" as the main branch
@@ -32,6 +34,7 @@ If you get an error saying "Author identity unknown" then you need to set up use
 
 ## Set up user name and email
 `git config --global user.email "you@example.com"`
+
 `git config --global user.name "Your Name"`
 
 Global means, that you will have the same git config, whenever you use git on your computer. If you don't want that, you can set your user.email and user.name just for this folder if you skip `global`
